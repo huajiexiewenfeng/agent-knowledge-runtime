@@ -94,7 +94,7 @@ knowledge-agent-api
 ```text
 agent-knowledge-runtime
   knowledge-agent-api
-    src/main/java/com/huajie/agentknowledge
+    src/main/java/com/xwf/agentknowledge
       AgentKnowledgeApplication.java
 
       common

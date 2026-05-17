@@ -1,4 +1,4 @@
-﻿# Agent Knowledge Runtime v0.1 Design
+# Agent Knowledge Runtime v0.1 Design
 
 ## Status
 
@@ -94,7 +94,7 @@ Initial structure:
 ```text
 agent-knowledge-runtime
   knowledge-agent-api
-    src/main/java/com/huajie/agentknowledge
+    src/main/java/com/xwf/agentknowledge
       AgentKnowledgeApplication.java
 
       common
