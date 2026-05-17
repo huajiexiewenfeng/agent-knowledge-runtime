@@ -61,5 +61,6 @@ class QueryKnowledgeServiceTest {
         assertThat(response.citations()).isNotEmpty();
         assertThat(response.citations().get(0).sourcePath()).isEqualTo("docs/architecture.zh.md");
         assertThat(response.citations().get(0).heading()).isEqualTo("Commit Policy");
+        assertThat(response.traceId()).startsWith("trace_");
     }
 }
