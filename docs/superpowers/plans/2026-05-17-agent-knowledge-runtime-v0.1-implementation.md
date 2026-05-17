@@ -6,7 +6,7 @@
 
 **Architecture:** Create one Maven-based Spring Boot module named `knowledge-agent-api`. Keep v0.1 as a single service with clear package boundaries: `ingest`, `query`, and `common`. Use H2 with Spring Data JPA for persistence and deterministic keyword retrieval instead of LLM/vector search.
 
-**Tech Stack:** Java 21, Spring Boot 3.3.x, Maven, Spring Web, Spring Data JPA, H2, Jakarta Validation, JUnit 5, Spring Boot Test.
+**Tech Stack:** Java 17, Spring Boot 3.3.x, Maven, Spring Web, Spring Data JPA, H2, Jakarta Validation, JUnit 5, Spring Boot Test.
 
 ---
 
@@ -139,7 +139,7 @@ LLM calls, embeddings, vector databases, memory workflows, eval runners, and UI 
     <description>Agent Knowledge Runtime backend API</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
