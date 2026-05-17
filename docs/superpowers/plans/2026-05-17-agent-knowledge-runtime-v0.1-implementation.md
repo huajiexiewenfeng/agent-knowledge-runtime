@@ -23,49 +23,49 @@ Create and modify these files under `D:\workspace\ai-workspace\agent-knowledge-r
 README.md
 docs/superpowers/plans/2026-05-17-agent-knowledge-runtime-v0.1-implementation.md
 knowledge-agent-api/pom.xml
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/AgentKnowledgeApplication.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/ApiErrorResponse.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/ErrorCode.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/GlobalExceptionHandler.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/ResourceNotFoundException.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/model/MetadataFilter.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceEntity.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceEvent.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceRepository.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceResponse.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceService.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceController.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/eval/package-info.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/DocumentController.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/DocumentResponse.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/ImportDocumentRequest.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/ImportDocumentResponse.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/application/ImportDocumentService.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/DocumentChunk.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/DocumentStatus.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/KnowledgeDocument.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/ParsedMarkdownSection.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/ChunkRepository.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/DocumentRepository.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/MarkdownParser.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/SimpleChunkingService.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/memory/package-info.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/api/KnowledgeQueryController.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/api/KnowledgeQueryRequest.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/api/KnowledgeQueryResponse.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/application/QueryKnowledgeService.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/domain/Citation.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/domain/RetrievedChunk.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/infrastructure/AnswerComposer.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/infrastructure/CitationBuilder.java
-knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/infrastructure/KeywordChunkRetriever.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/AgentKnowledgeApplication.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/ApiErrorResponse.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/ErrorCode.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/GlobalExceptionHandler.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/ResourceNotFoundException.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/model/MetadataFilter.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceEntity.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceEvent.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceRepository.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceResponse.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceService.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceController.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/eval/package-info.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/DocumentController.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/DocumentResponse.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/ImportDocumentRequest.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/ImportDocumentResponse.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/application/ImportDocumentService.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/DocumentChunk.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/DocumentStatus.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/KnowledgeDocument.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/ParsedMarkdownSection.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/ChunkRepository.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/DocumentRepository.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/MarkdownParser.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/SimpleChunkingService.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/memory/package-info.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/api/KnowledgeQueryController.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/api/KnowledgeQueryRequest.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/api/KnowledgeQueryResponse.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/application/QueryKnowledgeService.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/domain/Citation.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/domain/RetrievedChunk.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/infrastructure/AnswerComposer.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/infrastructure/CitationBuilder.java
+knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/infrastructure/KeywordChunkRetriever.java
 knowledge-agent-api/src/main/resources/application.yml
-knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest/infrastructure/MarkdownParserTest.java
-knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest/infrastructure/SimpleChunkingServiceTest.java
-knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest/api/ImportDocumentIntegrationTest.java
-knowledge-agent-api/src/test/java/com/xwf/agentknowledge/query/application/QueryKnowledgeServiceTest.java
-knowledge-agent-api/src/test/java/com/xwf/agentknowledge/query/api/QueryApiIntegrationTest.java
-knowledge-agent-api/src/test/java/com/xwf/agentknowledge/common/trace/TraceControllerIntegrationTest.java
+knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/MarkdownParserTest.java
+knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/SimpleChunkingServiceTest.java
+knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest/api/ImportDocumentIntegrationTest.java
+knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/query/application/QueryKnowledgeServiceTest.java
+knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/query/api/QueryApiIntegrationTest.java
+knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceControllerIntegrationTest.java
 ```
 
 ---
@@ -76,10 +76,10 @@ knowledge-agent-api/src/test/java/com/xwf/agentknowledge/common/trace/TraceContr
 - Create: `.gitignore`
 - Create: `README.md`
 - Create: `knowledge-agent-api/pom.xml`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/AgentKnowledgeApplication.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/AgentKnowledgeApplication.java`
 - Create: `knowledge-agent-api/src/main/resources/application.yml`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/memory/package-info.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/eval/package-info.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/memory/package-info.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/eval/package-info.java`
 
 - [ ] **Step 1: Create `.gitignore`**
 
@@ -132,7 +132,7 @@ LLM calls, embeddings, vector databases, memory workflows, eval runners, and UI 
         <relativePath/>
     </parent>
 
-    <groupId>com.xwf</groupId>
+    <groupId>io.github.xiewenfeng</groupId>
     <artifactId>knowledge-agent-api</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <name>knowledge-agent-api</name>
@@ -181,7 +181,7 @@ LLM calls, embeddings, vector databases, memory workflows, eval runners, and UI 
 - [ ] **Step 4: Create the Spring Boot application class**
 
 ```java
-package com.xwf.agentknowledge;
+package io.github.xiewenfeng.agentknowledge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -223,22 +223,22 @@ server:
 
 - [ ] **Step 6: Create reserved package markers**
 
-`knowledge-agent-api/src/main/java/com/xwf/agentknowledge/memory/package-info.java`:
+`knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/memory/package-info.java`:
 
 ```java
 /**
  * Reserved package for v0.4 memory candidate, review, commit, and recall flows.
  */
-package com.xwf.agentknowledge.memory;
+package io.github.xiewenfeng.agentknowledge.memory;
 ```
 
-`knowledge-agent-api/src/main/java/com/xwf/agentknowledge/eval/package-info.java`:
+`knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/eval/package-info.java`:
 
 ```java
 /**
  * Reserved package for v0.5 golden cases, failure cases, and trace reports.
  */
-package com.xwf.agentknowledge.eval;
+package io.github.xiewenfeng.agentknowledge.eval;
 ```
 
 - [ ] **Step 7: Run compile**
@@ -263,24 +263,24 @@ git commit -m "feat: scaffold knowledge agent api"
 ### Task 2: Add Domain Models and Common Errors
 
 **Files:**
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/ApiErrorResponse.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/ErrorCode.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/GlobalExceptionHandler.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/error/ResourceNotFoundException.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/model/MetadataFilter.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/DocumentStatus.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/KnowledgeDocument.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/DocumentChunk.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/domain/ParsedMarkdownSection.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/domain/Citation.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/domain/RetrievedChunk.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/ApiErrorResponse.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/ErrorCode.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/GlobalExceptionHandler.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/error/ResourceNotFoundException.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/model/MetadataFilter.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/DocumentStatus.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/KnowledgeDocument.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/DocumentChunk.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/domain/ParsedMarkdownSection.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/domain/Citation.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/domain/RetrievedChunk.java`
 
 - [ ] **Step 1: Create common error types**
 
 `ErrorCode.java`:
 
 ```java
-package com.xwf.agentknowledge.common.error;
+package io.github.xiewenfeng.agentknowledge.common.error;
 
 public enum ErrorCode {
     INVALID_REQUEST,
@@ -296,7 +296,7 @@ public enum ErrorCode {
 `ApiErrorResponse.java`:
 
 ```java
-package com.xwf.agentknowledge.common.error;
+package io.github.xiewenfeng.agentknowledge.common.error;
 
 import java.time.Instant;
 
@@ -315,7 +315,7 @@ public record ApiErrorResponse(
 `ResourceNotFoundException.java`:
 
 ```java
-package com.xwf.agentknowledge.common.error;
+package io.github.xiewenfeng.agentknowledge.common.error;
 
 public class ResourceNotFoundException extends RuntimeException {
     private final ErrorCode errorCode;
@@ -334,7 +334,7 @@ public class ResourceNotFoundException extends RuntimeException {
 `GlobalExceptionHandler.java`:
 
 ```java
-package com.xwf.agentknowledge.common.error;
+package io.github.xiewenfeng.agentknowledge.common.error;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
@@ -379,7 +379,7 @@ public class GlobalExceptionHandler {
 - [ ] **Step 2: Create metadata filter model**
 
 ```java
-package com.xwf.agentknowledge.common.model;
+package io.github.xiewenfeng.agentknowledge.common.model;
 
 import java.util.Map;
 
@@ -403,7 +403,7 @@ public record MetadataFilter(Map<String, String> values) {
 `DocumentStatus.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.domain;
+package io.github.xiewenfeng.agentknowledge.ingest.domain;
 
 public enum DocumentStatus {
     IMPORTED
@@ -413,7 +413,7 @@ public enum DocumentStatus {
 `KnowledgeDocument.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.domain;
+package io.github.xiewenfeng.agentknowledge.ingest.domain;
 
 import java.time.Instant;
 
@@ -432,7 +432,7 @@ public record KnowledgeDocument(
 `DocumentChunk.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.domain;
+package io.github.xiewenfeng.agentknowledge.ingest.domain;
 
 import java.time.Instant;
 
@@ -453,7 +453,7 @@ public record DocumentChunk(
 `ParsedMarkdownSection.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.domain;
+package io.github.xiewenfeng.agentknowledge.ingest.domain;
 
 public record ParsedMarkdownSection(String heading, String content) {
 }
@@ -464,7 +464,7 @@ public record ParsedMarkdownSection(String heading, String content) {
 `Citation.java`:
 
 ```java
-package com.xwf.agentknowledge.query.domain;
+package io.github.xiewenfeng.agentknowledge.query.domain;
 
 public record Citation(
         Long chunkId,
@@ -480,9 +480,9 @@ public record Citation(
 `RetrievedChunk.java`:
 
 ```java
-package com.xwf.agentknowledge.query.domain;
+package io.github.xiewenfeng.agentknowledge.query.domain;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
 
 public record RetrievedChunk(DocumentChunk chunk, int score) {
 }
@@ -501,7 +501,7 @@ Expected: `BUILD SUCCESS`.
 - [ ] **Step 6: Commit common models**
 
 ```powershell
-git add knowledge-agent-api/src/main/java/com/xwf/agentknowledge
+git add knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge
 git commit -m "feat: add core domain models"
 ```
 
@@ -510,15 +510,15 @@ git commit -m "feat: add core domain models"
 ### Task 3: Add JPA Persistence
 
 **Files:**
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/DocumentRepository.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/ChunkRepository.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/DocumentRepository.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/ChunkRepository.java`
 - Modify: `KnowledgeDocument.java`
 - Modify: `DocumentChunk.java`
 
 - [ ] **Step 1: Replace `KnowledgeDocument` with a JPA entity**
 
 ```java
-package com.xwf.agentknowledge.ingest.domain;
+package io.github.xiewenfeng.agentknowledge.ingest.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -602,7 +602,7 @@ public class KnowledgeDocument {
 - [ ] **Step 2: Replace `DocumentChunk` with a JPA entity**
 
 ```java
-package com.xwf.agentknowledge.ingest.domain;
+package io.github.xiewenfeng.agentknowledge.ingest.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -702,9 +702,9 @@ public class DocumentChunk {
 `DocumentRepository.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.infrastructure;
+package io.github.xiewenfeng.agentknowledge.ingest.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.KnowledgeDocument;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.KnowledgeDocument;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DocumentRepository extends JpaRepository<KnowledgeDocument, Long> {
@@ -714,9 +714,9 @@ public interface DocumentRepository extends JpaRepository<KnowledgeDocument, Lon
 `ChunkRepository.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.infrastructure;
+package io.github.xiewenfeng.agentknowledge.ingest.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
@@ -739,7 +739,7 @@ Expected: `BUILD SUCCESS`.
 - [ ] **Step 5: Commit persistence**
 
 ```powershell
-git add knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest
+git add knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest
 git commit -m "feat: add document chunk persistence"
 ```
 
@@ -748,17 +748,17 @@ git commit -m "feat: add document chunk persistence"
 ### Task 4: Implement Markdown Parsing and Chunking
 
 **Files:**
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/MarkdownParser.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/infrastructure/SimpleChunkingService.java`
-- Create: `knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest/infrastructure/MarkdownParserTest.java`
-- Create: `knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest/infrastructure/SimpleChunkingServiceTest.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/MarkdownParser.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/SimpleChunkingService.java`
+- Create: `knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/MarkdownParserTest.java`
+- Create: `knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest/infrastructure/SimpleChunkingServiceTest.java`
 
 - [ ] **Step 1: Write failing parser test**
 
 ```java
-package com.xwf.agentknowledge.ingest.infrastructure;
+package io.github.xiewenfeng.agentknowledge.ingest.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.ParsedMarkdownSection;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.ParsedMarkdownSection;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -820,9 +820,9 @@ Expected: FAIL because `MarkdownParser` does not exist.
 - [ ] **Step 3: Implement `MarkdownParser`**
 
 ```java
-package com.xwf.agentknowledge.ingest.infrastructure;
+package io.github.xiewenfeng.agentknowledge.ingest.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.ParsedMarkdownSection;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.ParsedMarkdownSection;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -878,10 +878,10 @@ Expected: PASS.
 - [ ] **Step 5: Write failing chunking test**
 
 ```java
-package com.xwf.agentknowledge.ingest.infrastructure;
+package io.github.xiewenfeng.agentknowledge.ingest.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.ingest.domain.ParsedMarkdownSection;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.ParsedMarkdownSection;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -929,10 +929,10 @@ Expected: FAIL because `SimpleChunkingService` does not exist.
 - [ ] **Step 7: Implement `SimpleChunkingService`**
 
 ```java
-package com.xwf.agentknowledge.ingest.infrastructure;
+package io.github.xiewenfeng.agentknowledge.ingest.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.ingest.domain.ParsedMarkdownSection;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.ParsedMarkdownSection;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
@@ -996,7 +996,7 @@ Expected: PASS.
 - [ ] **Step 9: Commit parser and chunking**
 
 ```powershell
-git add knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest
+git add knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest
 git commit -m "feat: parse markdown into chunks"
 ```
 
@@ -1005,17 +1005,17 @@ git commit -m "feat: parse markdown into chunks"
 ### Task 5: Implement Document Import API
 
 **Files:**
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/DocumentController.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/DocumentResponse.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/ImportDocumentRequest.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/api/ImportDocumentResponse.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest/application/ImportDocumentService.java`
-- Create: `knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest/api/ImportDocumentIntegrationTest.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/DocumentController.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/DocumentResponse.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/ImportDocumentRequest.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/api/ImportDocumentResponse.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest/application/ImportDocumentService.java`
+- Create: `knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest/api/ImportDocumentIntegrationTest.java`
 
 - [ ] **Step 1: Write failing import integration test**
 
 ```java
-package com.xwf.agentknowledge.ingest.api;
+package io.github.xiewenfeng.agentknowledge.ingest.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -1088,7 +1088,7 @@ Expected: FAIL because import API classes do not exist.
 `ImportDocumentRequest.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.api;
+package io.github.xiewenfeng.agentknowledge.ingest.api;
 
 import jakarta.validation.constraints.NotBlank;
 
@@ -1106,7 +1106,7 @@ public record ImportDocumentRequest(
 `ImportDocumentResponse.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.api;
+package io.github.xiewenfeng.agentknowledge.ingest.api;
 
 public record ImportDocumentResponse(Long documentId, int chunkCount, String status) {
 }
@@ -1115,9 +1115,9 @@ public record ImportDocumentResponse(Long documentId, int chunkCount, String sta
 `DocumentResponse.java`:
 
 ```java
-package com.xwf.agentknowledge.ingest.api;
+package io.github.xiewenfeng.agentknowledge.ingest.api;
 
-import com.xwf.agentknowledge.ingest.domain.KnowledgeDocument;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.KnowledgeDocument;
 
 import java.time.Instant;
 
@@ -1147,22 +1147,22 @@ public record DocumentResponse(
 - [ ] **Step 4: Create `ImportDocumentService`**
 
 ```java
-package com.xwf.agentknowledge.ingest.application;
+package io.github.xiewenfeng.agentknowledge.ingest.application;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xwf.agentknowledge.common.error.ErrorCode;
-import com.xwf.agentknowledge.common.error.ResourceNotFoundException;
-import com.xwf.agentknowledge.ingest.api.DocumentResponse;
-import com.xwf.agentknowledge.ingest.api.ImportDocumentRequest;
-import com.xwf.agentknowledge.ingest.api.ImportDocumentResponse;
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.ingest.domain.KnowledgeDocument;
-import com.xwf.agentknowledge.ingest.domain.ParsedMarkdownSection;
-import com.xwf.agentknowledge.ingest.infrastructure.ChunkRepository;
-import com.xwf.agentknowledge.ingest.infrastructure.DocumentRepository;
-import com.xwf.agentknowledge.ingest.infrastructure.MarkdownParser;
-import com.xwf.agentknowledge.ingest.infrastructure.SimpleChunkingService;
+import io.github.xiewenfeng.agentknowledge.common.error.ErrorCode;
+import io.github.xiewenfeng.agentknowledge.common.error.ResourceNotFoundException;
+import io.github.xiewenfeng.agentknowledge.ingest.api.DocumentResponse;
+import io.github.xiewenfeng.agentknowledge.ingest.api.ImportDocumentRequest;
+import io.github.xiewenfeng.agentknowledge.ingest.api.ImportDocumentResponse;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.KnowledgeDocument;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.ParsedMarkdownSection;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.ChunkRepository;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.DocumentRepository;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.MarkdownParser;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.SimpleChunkingService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -1246,9 +1246,9 @@ public class ImportDocumentService {
 - [ ] **Step 5: Create `DocumentController`**
 
 ```java
-package com.xwf.agentknowledge.ingest.api;
+package io.github.xiewenfeng.agentknowledge.ingest.api;
 
-import com.xwf.agentknowledge.ingest.application.ImportDocumentService;
+import io.github.xiewenfeng.agentknowledge.ingest.application.ImportDocumentService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -1291,7 +1291,7 @@ Expected: PASS.
 - [ ] **Step 7: Commit import API**
 
 ```powershell
-git add knowledge-agent-api/src/main/java/com/xwf/agentknowledge/ingest knowledge-agent-api/src/test/java/com/xwf/agentknowledge/ingest
+git add knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/ingest knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/ingest
 git commit -m "feat: add markdown import api"
 ```
 
@@ -1300,24 +1300,24 @@ git commit -m "feat: add markdown import api"
 ### Task 6: Implement Query, Citation, and Answer Draft
 
 **Files:**
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/api/KnowledgeQueryController.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/api/KnowledgeQueryRequest.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/api/KnowledgeQueryResponse.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/application/QueryKnowledgeService.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/infrastructure/AnswerComposer.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/infrastructure/CitationBuilder.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/infrastructure/KeywordChunkRetriever.java`
-- Create: `knowledge-agent-api/src/test/java/com/xwf/agentknowledge/query/application/QueryKnowledgeServiceTest.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/api/KnowledgeQueryController.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/api/KnowledgeQueryRequest.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/api/KnowledgeQueryResponse.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/application/QueryKnowledgeService.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/infrastructure/AnswerComposer.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/infrastructure/CitationBuilder.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/infrastructure/KeywordChunkRetriever.java`
+- Create: `knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/query/application/QueryKnowledgeServiceTest.java`
 
 - [ ] **Step 1: Write failing query service test**
 
 ```java
-package com.xwf.agentknowledge.query.application;
+package io.github.xiewenfeng.agentknowledge.query.application;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.ingest.infrastructure.ChunkRepository;
-import com.xwf.agentknowledge.query.api.KnowledgeQueryRequest;
-import com.xwf.agentknowledge.query.api.KnowledgeQueryResponse;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.ChunkRepository;
+import io.github.xiewenfeng.agentknowledge.query.api.KnowledgeQueryRequest;
+import io.github.xiewenfeng.agentknowledge.query.api.KnowledgeQueryResponse;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -1388,7 +1388,7 @@ Expected: FAIL because query classes do not exist.
 `KnowledgeQueryRequest.java`:
 
 ```java
-package com.xwf.agentknowledge.query.api;
+package io.github.xiewenfeng.agentknowledge.query.api;
 
 import jakarta.validation.constraints.NotBlank;
 
@@ -1411,9 +1411,9 @@ public record KnowledgeQueryRequest(
 `KnowledgeQueryResponse.java`:
 
 ```java
-package com.xwf.agentknowledge.query.api;
+package io.github.xiewenfeng.agentknowledge.query.api;
 
-import com.xwf.agentknowledge.query.domain.Citation;
+import io.github.xiewenfeng.agentknowledge.query.domain.Citation;
 
 import java.util.List;
 
@@ -1430,13 +1430,13 @@ public record KnowledgeQueryResponse(
 `KeywordChunkRetriever.java`:
 
 ```java
-package com.xwf.agentknowledge.query.infrastructure;
+package io.github.xiewenfeng.agentknowledge.query.infrastructure;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.ingest.infrastructure.ChunkRepository;
-import com.xwf.agentknowledge.query.domain.RetrievedChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.ChunkRepository;
+import io.github.xiewenfeng.agentknowledge.query.domain.RetrievedChunk;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -1503,10 +1503,10 @@ public class KeywordChunkRetriever {
 `CitationBuilder.java`:
 
 ```java
-package com.xwf.agentknowledge.query.infrastructure;
+package io.github.xiewenfeng.agentknowledge.query.infrastructure;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.query.domain.Citation;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.query.domain.Citation;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -1535,9 +1535,9 @@ public class CitationBuilder {
 `AnswerComposer.java`:
 
 ```java
-package com.xwf.agentknowledge.query.infrastructure;
+package io.github.xiewenfeng.agentknowledge.query.infrastructure;
 
-import com.xwf.agentknowledge.query.domain.RetrievedChunk;
+import io.github.xiewenfeng.agentknowledge.query.domain.RetrievedChunk;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -1572,16 +1572,16 @@ public class AnswerComposer {
 - [ ] **Step 5: Create `QueryKnowledgeService`**
 
 ```java
-package com.xwf.agentknowledge.query.application;
+package io.github.xiewenfeng.agentknowledge.query.application;
 
-import com.xwf.agentknowledge.common.error.ErrorCode;
-import com.xwf.agentknowledge.query.api.KnowledgeQueryRequest;
-import com.xwf.agentknowledge.query.api.KnowledgeQueryResponse;
-import com.xwf.agentknowledge.query.domain.Citation;
-import com.xwf.agentknowledge.query.domain.RetrievedChunk;
-import com.xwf.agentknowledge.query.infrastructure.AnswerComposer;
-import com.xwf.agentknowledge.query.infrastructure.CitationBuilder;
-import com.xwf.agentknowledge.query.infrastructure.KeywordChunkRetriever;
+import io.github.xiewenfeng.agentknowledge.common.error.ErrorCode;
+import io.github.xiewenfeng.agentknowledge.query.api.KnowledgeQueryRequest;
+import io.github.xiewenfeng.agentknowledge.query.api.KnowledgeQueryResponse;
+import io.github.xiewenfeng.agentknowledge.query.domain.Citation;
+import io.github.xiewenfeng.agentknowledge.query.domain.RetrievedChunk;
+import io.github.xiewenfeng.agentknowledge.query.infrastructure.AnswerComposer;
+import io.github.xiewenfeng.agentknowledge.query.infrastructure.CitationBuilder;
+import io.github.xiewenfeng.agentknowledge.query.infrastructure.KeywordChunkRetriever;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -1633,9 +1633,9 @@ Expected: PASS.
 - [ ] **Step 7: Create query controller**
 
 ```java
-package com.xwf.agentknowledge.query.api;
+package io.github.xiewenfeng.agentknowledge.query.api;
 
-import com.xwf.agentknowledge.query.application.QueryKnowledgeService;
+import io.github.xiewenfeng.agentknowledge.query.application.QueryKnowledgeService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -1661,7 +1661,7 @@ public class KnowledgeQueryController {
 - [ ] **Step 8: Commit query support**
 
 ```powershell
-git add knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query knowledge-agent-api/src/test/java/com/xwf/agentknowledge/query
+git add knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/query
 git commit -m "feat: add keyword query and citations"
 ```
 
@@ -1670,22 +1670,22 @@ git commit -m "feat: add keyword query and citations"
 ### Task 7: Add Trace Recording and Trace API
 
 **Files:**
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceEntity.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceEvent.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceRepository.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceResponse.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceService.java`
-- Create: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace/TraceController.java`
-- Modify: `knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/application/QueryKnowledgeService.java`
-- Create: `knowledge-agent-api/src/test/java/com/xwf/agentknowledge/common/trace/TraceControllerIntegrationTest.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceEntity.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceEvent.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceRepository.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceResponse.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceService.java`
+- Create: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceController.java`
+- Modify: `knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/application/QueryKnowledgeService.java`
+- Create: `knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/common/trace/TraceControllerIntegrationTest.java`
 
 - [ ] **Step 1: Write failing trace integration test**
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
-import com.xwf.agentknowledge.ingest.domain.DocumentChunk;
-import com.xwf.agentknowledge.ingest.infrastructure.ChunkRepository;
+import io.github.xiewenfeng.agentknowledge.ingest.domain.DocumentChunk;
+import io.github.xiewenfeng.agentknowledge.ingest.infrastructure.ChunkRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -1768,7 +1768,7 @@ Expected: FAIL because trace classes and API do not exist.
 `TraceEvent.java`:
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
 public record TraceEvent(String name, String detail) {
 }
@@ -1777,7 +1777,7 @@ public record TraceEvent(String name, String detail) {
 `TraceEntity.java`:
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -1849,7 +1849,7 @@ public class TraceEntity {
 `TraceRepository.java`:
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -1860,7 +1860,7 @@ public interface TraceRepository extends JpaRepository<TraceEntity, String> {
 `TraceResponse.java`:
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
 import java.time.Instant;
 import java.util.List;
@@ -1881,13 +1881,13 @@ public record TraceResponse(
 `TraceService.java`:
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xwf.agentknowledge.common.error.ErrorCode;
-import com.xwf.agentknowledge.common.error.ResourceNotFoundException;
+import io.github.xiewenfeng.agentknowledge.common.error.ErrorCode;
+import io.github.xiewenfeng.agentknowledge.common.error.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
@@ -1951,7 +1951,7 @@ public class TraceService {
 `TraceController.java`:
 
 ```java
-package com.xwf.agentknowledge.common.trace;
+package io.github.xiewenfeng.agentknowledge.common.trace;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -1977,18 +1977,18 @@ public class TraceController {
 - [ ] **Step 5: Update `QueryKnowledgeService` to record trace**
 
 ```java
-package com.xwf.agentknowledge.query.application;
+package io.github.xiewenfeng.agentknowledge.query.application;
 
-import com.xwf.agentknowledge.common.error.ErrorCode;
-import com.xwf.agentknowledge.common.trace.TraceEvent;
-import com.xwf.agentknowledge.common.trace.TraceService;
-import com.xwf.agentknowledge.query.api.KnowledgeQueryRequest;
-import com.xwf.agentknowledge.query.api.KnowledgeQueryResponse;
-import com.xwf.agentknowledge.query.domain.Citation;
-import com.xwf.agentknowledge.query.domain.RetrievedChunk;
-import com.xwf.agentknowledge.query.infrastructure.AnswerComposer;
-import com.xwf.agentknowledge.query.infrastructure.CitationBuilder;
-import com.xwf.agentknowledge.query.infrastructure.KeywordChunkRetriever;
+import io.github.xiewenfeng.agentknowledge.common.error.ErrorCode;
+import io.github.xiewenfeng.agentknowledge.common.trace.TraceEvent;
+import io.github.xiewenfeng.agentknowledge.common.trace.TraceService;
+import io.github.xiewenfeng.agentknowledge.query.api.KnowledgeQueryRequest;
+import io.github.xiewenfeng.agentknowledge.query.api.KnowledgeQueryResponse;
+import io.github.xiewenfeng.agentknowledge.query.domain.Citation;
+import io.github.xiewenfeng.agentknowledge.query.domain.RetrievedChunk;
+import io.github.xiewenfeng.agentknowledge.query.infrastructure.AnswerComposer;
+import io.github.xiewenfeng.agentknowledge.query.infrastructure.CitationBuilder;
+import io.github.xiewenfeng.agentknowledge.query.infrastructure.KeywordChunkRetriever;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -2074,7 +2074,7 @@ assertThat(response.traceId()).startsWith("trace_");
 - [ ] **Step 8: Commit trace support**
 
 ```powershell
-git add knowledge-agent-api/src/main/java/com/xwf/agentknowledge/common/trace knowledge-agent-api/src/main/java/com/xwf/agentknowledge/query/application/QueryKnowledgeService.java knowledge-agent-api/src/test/java/com/xwf/agentknowledge
+git add knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/common/trace knowledge-agent-api/src/main/java/io/github/xiewenfeng/agentknowledge/query/application/QueryKnowledgeService.java knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge
 git commit -m "feat: record query traces"
 ```
 
@@ -2083,13 +2083,13 @@ git commit -m "feat: record query traces"
 ### Task 8: Add End-to-End Query API Test and Documentation
 
 **Files:**
-- Create: `knowledge-agent-api/src/test/java/com/xwf/agentknowledge/query/api/QueryApiIntegrationTest.java`
+- Create: `knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/query/api/QueryApiIntegrationTest.java`
 - Modify: `README.md`
 
 - [ ] **Step 1: Write end-to-end API test**
 
 ```java
-package com.xwf.agentknowledge.query.api;
+package io.github.xiewenfeng.agentknowledge.query.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -2231,7 +2231,7 @@ Expected: `BUILD SUCCESS`.
 - [ ] **Step 5: Commit end-to-end coverage and docs**
 
 ```powershell
-git add README.md knowledge-agent-api/src/test/java/com/xwf/agentknowledge/query/api/QueryApiIntegrationTest.java
+git add README.md knowledge-agent-api/src/test/java/io/github/xiewenfeng/agentknowledge/query/api/QueryApiIntegrationTest.java
 git commit -m "test: cover v0.1 rag api loop"
 ```
 

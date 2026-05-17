@@ -94,7 +94,7 @@ Initial structure:
 ```text
 agent-knowledge-runtime
   knowledge-agent-api
-    src/main/java/com/xwf/agentknowledge
+    src/main/java/io/github/xiewenfeng/agentknowledge
       AgentKnowledgeApplication.java
 
       common
